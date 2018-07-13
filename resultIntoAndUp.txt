@@ -1,0 +1,3530 @@
+#################################################################
+CONSDICIONAIS DOS CAMPOS NAO NOT NULL
+
+            IF TREIW-1111111111111111111111111-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-1111111111111111111111111
+                                        TO 1111111111111111111111111
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-1111111111111111111111111-NULL
+            END-IF.
+
+            IF TREIW-IABREV-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-IABREV-COTBT
+                                        TO IABREV-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-IABREV-COTBT-NULL
+            END-IF.
+
+            IF TREIW-ELOGDR-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ELOGDR-COTBT
+                                        TO ELOGDR-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ELOGDR-COTBT-NULL
+            END-IF.
+
+            IF TREIW-ENRO-LOGDR-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ENRO-LOGDR-COTBT
+                                        TO ENRO-LOGDR-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ENRO-LOGDR-COTBT-NULL
+            END-IF.
+
+            IF TREIW-ECOMPL-LOGDR-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ECOMPL-LOGDR-COTBT
+                                        TO ECOMPL-LOGDR-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ECOMPL-LOGDR-COTBT-NULL
+            END-IF.
+
+            IF TREIW-EBAIRO-LOGDR-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-EBAIRO-LOGDR-COTBT
+                                        TO EBAIRO-LOGDR-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-EBAIRO-LOGDR-COTBT-NULL
+            END-IF.
+
+            IF TREIW-IMUN-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-IMUN-COTBT
+                                        TO IMUN-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-IMUN-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CSGL-UF-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSGL-UF-COTBT
+                                        TO CSGL-UF-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSGL-UF-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CCEP-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCEP-COTBT
+                                        TO CCEP-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCEP-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CCEP-COMPL-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCEP-COMPL-COTBT
+                                        TO CCEP-COMPL-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCEP-COMPL-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CDDD-FONE-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CDDD-FONE-COTBT
+                                        TO CDDD-FONE-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CDDD-FONE-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CFONE-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CFONE-COTBT
+                                        TO CFONE-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CFONE-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CINSCR-EST-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CINSCR-EST-COTBT
+                                        TO CINSCR-EST-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CINSCR-EST-COTBT-NULL
+            END-IF.
+
+            IF TREIW-VABTMT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VABTMT-PGTO
+                                        TO VABTMT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VABTMT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VMULTA-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VMULTA-PGTO
+                                        TO VMULTA-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VMULTA-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VMORA-ENCAR-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VMORA-ENCAR-PGTO
+                                        TO VMORA-ENCAR-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VMORA-ENCAR-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VEFTVC-CREDT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VEFTVC-CREDT-PGTO
+                                        TO VEFTVC-CREDT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VEFTVC-CREDT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-HEFTVC-CREDT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-HEFTVC-CREDT-PGTO
+                                        TO HEFTVC-CREDT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-HEFTVC-CREDT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CFGTS-PGTO-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CFGTS-PGTO-TRIBT
+                                        TO CFGTS-PGTO-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CFGTS-PGTO-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CAGTE-ARREC-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CAGTE-ARREC-TRIBT
+                                        TO CAGTE-ARREC-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CAGTE-ARREC-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-NREFT-PGTO-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NREFT-PGTO-TRIBT
+                                        TO NREFT-PGTO-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NREFT-PGTO-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-NCOTA-PCELA-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NCOTA-PCELA-TRIBT
+                                        TO NCOTA-PCELA-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NCOTA-PCELA-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-PRECTA-PGTO-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-PRECTA-PGTO-TRIBT
+                                        TO PRECTA-PGTO-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-PRECTA-PGTO-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-DREFT-PGTO-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DREFT-PGTO-TRIBT
+                                        TO DREFT-PGTO-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DREFT-PGTO-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-VATULZ-MONET-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VATULZ-MONET-TRIBT
+                                        TO VATULZ-MONET-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VATULZ-MONET-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CINFO-COMPL-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CINFO-COMPL-TRIBT
+                                        TO CINFO-COMPL-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CINFO-COMPL-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-RCOMPL-EMPR-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RCOMPL-EMPR-TRIBT
+                                        TO RCOMPL-EMPR-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RCOMPL-EMPR-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-RCOMPL-GUIA-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RCOMPL-GUIA-TRIBT
+                                        TO RCOMPL-GUIA-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RCOMPL-GUIA-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CLACRE-SCIAL-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CLACRE-SCIAL-TRIBT
+                                        TO CLACRE-SCIAL-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CLACRE-SCIAL-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CDIG-LACRE-SCIAL-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CDIG-LACRE-SCIAL
+                                        TO CDIG-LACRE-SCIAL
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CDIG-LACRE-SCIAL-NULL
+            END-IF.
+
+            IF TREIW-CTPO-DOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-DOCTO-PGTO
+                                        TO CTPO-DOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-DOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CDOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CDOCTO-PGTO
+                                        TO CDOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CDOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CSERIE-DOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSERIE-DOCTO-PGTO
+                                        TO CSERIE-DOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSERIE-DOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VDOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VDOCTO-PGTO
+                                        TO VDOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VDOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-DEMIS-DOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DEMIS-DOCTO-PGTO
+                                        TO DEMIS-DOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DEMIS-DOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CPSSOA-CONTR-ESTRN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CPSSOA-CONTR-ESTRN
+                                        TO CPSSOA-CONTR-ESTRN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CPSSOA-CONTR-ESTRN-NULL
+            END-IF.
+
+            IF TREIW-CTPO-CONTR-ESTRN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-CONTR-ESTRN
+                                        TO CTPO-CONTR-ESTRN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-CONTR-ESTRN-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-CONTR-ESTRN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-CONTR-ESTRN
+                                        TO NSEQ-CONTR-ESTRN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-CONTR-ESTRN-NULL
+            END-IF.
+
+            IF TREIW-CPSSOA-CONTR-TARIF-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CPSSOA-CONTR-TARIF
+                                        TO CPSSOA-CONTR-TARIF
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CPSSOA-CONTR-TARIF-NULL
+            END-IF.
+
+            IF TREIW-CTPO-CONTR-TARIF-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-CONTR-TARIF
+                                        TO CTPO-CONTR-TARIF
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-CONTR-TARIF-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-CONTR-TARIF-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-CONTR-TARIF
+                                        TO NSEQ-CONTR-TARIF
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-CONTR-TARIF-NULL
+            END-IF.
+
+            IF TREIW-CPSSOA-ORIGE-REC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CPSSOA-ORIGE-REC
+                                        TO CPSSOA-ORIGE-REC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CPSSOA-ORIGE-REC-NULL
+            END-IF.
+
+            IF TREIW-CTPO-ORIGE-REC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-ORIGE-REC
+                                        TO CTPO-ORIGE-REC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-ORIGE-REC-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-ORIGE-REC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-ORIGE-REC
+                                        TO NSEQ-ORIGE-REC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-ORIGE-REC-NULL
+            END-IF.
+
+            IF TREIW-CPSSOA-JURID-CTBIL-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CPSSOA-JURID-CTBIL
+                                        TO CPSSOA-JURID-CTBIL
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CPSSOA-JURID-CTBIL-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-ORGNZ-CTBIL-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-ORGNZ-CTBIL
+                                        TO NSEQ-ORGNZ-CTBIL
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-ORGNZ-CTBIL-NULL
+            END-IF.
+
+            IF TREIW-DANO-OPER-DESC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DANO-OPER-DESC
+                                        TO DANO-OPER-DESC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DANO-OPER-DESC-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-OPER-DESC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-OPER-DESC
+                                        TO NSEQ-OPER-DESC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-OPER-DESC-NULL
+            END-IF.
+
+            IF TREIW-IABREV-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-IABREV-PGDOR
+                                        TO IABREV-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-IABREV-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-ELOGDR-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ELOGDR-PGDOR
+                                        TO ELOGDR-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ELOGDR-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-ENRO-LOGDR-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ENRO-LOGDR-PGDOR
+                                        TO ENRO-LOGDR-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ENRO-LOGDR-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-ECOMPL-LOGDR-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ECOMPL-LOGDR-PGDOR
+                                        TO ECOMPL-LOGDR-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ECOMPL-LOGDR-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-EBAIRO-CLI-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-EBAIRO-CLI-PGDOR
+                                        TO EBAIRO-CLI-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-EBAIRO-CLI-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-IMUN-CLI-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-IMUN-CLI-PGDOR
+                                        TO IMUN-CLI-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-IMUN-CLI-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-CSGL-UF-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSGL-UF-PGDOR
+                                        TO CSGL-UF-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSGL-UF-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-CCEP-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCEP-PGDOR
+                                        TO CCEP-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCEP-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-CCEP-COMPL-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCEP-COMPL-PGDOR
+                                        TO CCEP-COMPL-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCEP-COMPL-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-CTPO-LYOUT-ARQ-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-LYOUT-ARQ
+                                        TO CTPO-LYOUT-ARQ
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-LYOUT-ARQ-NULL
+            END-IF.
+
+            IF TREIW-CTPO-LOTE-ARQ-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-LOTE-ARQ
+                                        TO CTPO-LOTE-ARQ
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-LOTE-ARQ-NULL
+            END-IF.
+
+            IF TREIW-CLYOUT-ORIGE-REMSS-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CLYOUT-ORIGE-REMSS
+                                        TO CLYOUT-ORIGE-REMSS
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CLYOUT-ORIGE-REMSS-NULL
+            END-IF.
+
+            IF TREIW-CVRSAO-LYOUT-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CVRSAO-LYOUT-CNAB
+                                        TO CVRSAO-LYOUT-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CVRSAO-LYOUT-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CVRSAO-LOTE-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CVRSAO-LOTE-CNAB
+                                        TO CVRSAO-LOTE-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CVRSAO-LOTE-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CINSTR-MOVTO-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CINSTR-MOVTO-CNAB
+                                        TO CINSTR-MOVTO-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CINSTR-MOVTO-CNAB-NULL
+            END-IF.
+
+            IF TREIW-COPER-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-COPER-CNAB
+                                        TO COPER-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-COPER-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CTPO-SERVC-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-SERVC-CNAB
+                                        TO CTPO-SERVC-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-SERVC-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CCOMPL-SERVC-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCOMPL-SERVC-CNAB
+                                        TO CCOMPL-SERVC-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCOMPL-SERVC-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CFORMA-LCTO-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CFORMA-LCTO-CNAB
+                                        TO CFORMA-LCTO-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CFORMA-LCTO-CNAB-NULL
+            END-IF.
+
+            IF TREIW-RINFO-COMPL-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RINFO-COMPL-CNAB
+                                        TO RINFO-COMPL-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RINFO-COMPL-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CFORMA-LIQDC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CFORMA-LIQDC
+                                        TO CFORMA-LIQDC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CFORMA-LIQDC-NULL
+            END-IF.
+
+            IF TREIW-CSIST-PGTO-CLI-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSIST-PGTO-CLI
+                                        TO CSIST-PGTO-CLI
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSIST-PGTO-CLI-NULL
+            END-IF.
+
+            IF TREIW-CLISTA-DEB-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CLISTA-DEB-PGTO
+                                        TO CLISTA-DEB-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CLISTA-DEB-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CMOTVO-SIT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CMOTVO-SIT-PGTO
+                                        TO CMOTVO-SIT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CMOTVO-SIT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-QDIA-FLOAT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-QDIA-FLOAT-PGTO
+                                        TO QDIA-FLOAT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-QDIA-FLOAT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VFLOAT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VFLOAT-PGTO
+                                        TO VFLOAT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VFLOAT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-DFLOAT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DFLOAT-PGTO
+                                        TO DFLOAT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DFLOAT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VEFTVC-DEB-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VEFTVC-DEB-PGTO
+                                        TO VEFTVC-DEB-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VEFTVC-DEB-PGTO-NULL
+            END-IF.
+
+            IF TREIW-HEFTVC-DEB-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-HEFTVC-DEB-PGTO
+                                        TO HEFTVC-DEB-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-HEFTVC-DEB-PGTO-NULL
+            END-IF.
+
+            IF TREIW-HDETRM-EFTVC-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-HDETRM-EFTVC-PGTO
+                                        TO HDETRM-EFTVC-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-HDETRM-EFTVC-PGTO-NULL
+            END-IF.
+
+            IF TREIW-QDIA-REPIQ-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-QDIA-REPIQ-PGTO
+                                        TO QDIA-REPIQ-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-QDIA-REPIQ-PGTO-NULL
+            END-IF.
+
+            IF TREIW-QDIA-REPIQ-EFTVC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-QDIA-REPIQ-EFTVC
+                                        TO QDIA-REPIQ-EFTVC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-QDIA-REPIQ-EFTVC-NULL
+            END-IF.
+
+            IF TREIW-CTPO-MANUT-ONLINE-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-MANUT-ONLINE
+                                        TO CTPO-MANUT-ONLINE
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-MANUT-ONLINE-NULL
+            END-IF.
+
+            IF TREIW-CSIT-MANUT-ONLINE-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSIT-MANUT-ONLINE
+                                        TO CSIT-MANUT-ONLINE
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSIT-MANUT-ONLINE-NULL
+            END-IF.
+
+            IF TREIW-CEVNTO-SIST-ORIGE-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CEVNTO-SIST-ORIGE
+                                        TO CEVNTO-SIST-ORIGE
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CEVNTO-SIST-ORIGE-NULL
+            END-IF.
+
+            IF TREIW-RPGTO-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RPGTO-PGDOR
+                                        TO RPGTO-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RPGTO-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-RAUTEN-BCRIA-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RAUTEN-BCRIA-PGTO
+                                        TO RAUTEN-BCRIA-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RAUTEN-BCRIA-PGTO-NULL
+            END-IF.
+
+            IF TREIW-RMSGEM-GNRCO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RMSGEM-GNRCO-PGTO
+                                        TO RMSGEM-GNRCO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RMSGEM-GNRCO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-RMSGEM-ESPEC-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RMSGEM-ESPEC-PGTO
+                                        TO RMSGEM-ESPEC-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RMSGEM-ESPEC-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CMSGEM-PRIM-LIN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CMSGEM-PRIM-LIN
+                                        TO CMSGEM-PRIM-LIN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CMSGEM-PRIM-LIN-NULL
+            END-IF.
+
+            IF TREIW-CMSGEM-SEGDA-LIN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CMSGEM-SEGDA-LIN
+                                        TO CMSGEM-SEGDA-LIN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CMSGEM-SEGDA-LIN-NULL
+            END-IF.
+
+            IF TREIW-RUSO-EMPR-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RUSO-EMPR-PGTO
+                                        TO RUSO-EMPR-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RUSO-EMPR-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CUSUAR-INCL-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CUSUAR-INCL
+                                        TO CUSUAR-INCL
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CUSUAR-INCL-NULL
+            END-IF.
+
+            IF TREIW-CUSUAR-INCL-EXTER-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CUSUAR-INCL-EXTER
+                                        TO CUSUAR-INCL-EXTER
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CUSUAR-INCL-EXTER-NULL
+            END-IF.
+
+            IF TREIW-CUSUAR-MANUT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CUSUAR-MANUT
+                                        TO CUSUAR-MANUT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CUSUAR-MANUT-NULL
+            END-IF.
+
+            IF TREIW-CUSUAR-MANUT-EXTER-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CUSUAR-MANUT-EXTER
+                                        TO CUSUAR-MANUT-EXTER
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CUSUAR-MANUT-EXTER-NULL
+            END-IF.
+
+            IF TREIW-HMANUT-REG-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-HMANUT-REG
+                                        TO HMANUT-REG
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-HMANUT-REG-NULL
+            END-IF.
+
+            IF TREIW-COPER-CANAL-MANUT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-COPER-CANAL-MANUT
+                                        TO COPER-CANAL-MANUT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-COPER-CANAL-MANUT-NULL
+            END-IF.
+
+            IF TREIW-CTPO-CANAL-MANUT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-CANAL-MANUT
+                                        TO CTPO-CANAL-MANUT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-CANAL-MANUT-NULL
+            END-IF.
+
+            IF TREIW-CINDCD-PEND-ENVIO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CINDCD-PEND-ENVIO
+                                        TO CINDCD-PEND-ENVIO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CINDCD-PEND-ENVIO-NULL
+            END-IF.
+
+            IF TREIW-CGRP-RECTA-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CGRP-RECTA-TRIBT
+                                        TO CGRP-RECTA-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CGRP-RECTA-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CTPO-RECTA-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-RECTA-TRIBT
+                                        TO CTPO-RECTA-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-RECTA-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CORG-PGDOR-ORGNZ-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CORG-PGDOR-ORGNZ
+                                        TO CORG-PGDOR-ORGNZ
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CORG-PGDOR-ORGNZ-NULL
+            END-IF.
+
+            IF TREIW-DEFETV-FLOAT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DEFETV-FLOAT-PGTO
+                                        TO DEFETV-FLOAT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DEFETV-FLOAT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CIDTFD-COMPV-GERDR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CIDTFD-COMPV-GERDR
+                                        TO CIDTFD-COMPV-GERDR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CIDTFD-COMPV-GERDR-NULL
+            END-IF.
+
+            IF TREIW-CIDTFD-VNCLO-LCTO                  IABREV-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CIDTFD-VNCLO-LCTO                  IABREV-COTBT
+                                        TO CIDTFD-VNCLO-LCTO                  IABREV-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CIDTFD-VNCLO-LCTO                  IABREV-COTBT-NULL
+            END-IF.
+
+            IF TREIW-ELOGDR-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ELOGDR-COTBT
+                                        TO ELOGDR-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ELOGDR-COTBT-NULL
+            END-IF.
+
+            IF TREIW-ENRO-LOGDR-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ENRO-LOGDR-COTBT
+                                        TO ENRO-LOGDR-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ENRO-LOGDR-COTBT-NULL
+            END-IF.
+
+            IF TREIW-ECOMPL-LOGDR-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ECOMPL-LOGDR-COTBT
+                                        TO ECOMPL-LOGDR-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ECOMPL-LOGDR-COTBT-NULL
+            END-IF.
+
+            IF TREIW-EBAIRO-LOGDR-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-EBAIRO-LOGDR-COTBT
+                                        TO EBAIRO-LOGDR-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-EBAIRO-LOGDR-COTBT-NULL
+            END-IF.
+
+            IF TREIW-IMUN-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-IMUN-COTBT
+                                        TO IMUN-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-IMUN-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CSGL-UF-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSGL-UF-COTBT
+                                        TO CSGL-UF-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSGL-UF-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CCEP-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCEP-COTBT
+                                        TO CCEP-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCEP-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CCEP-COMPL-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCEP-COMPL-COTBT
+                                        TO CCEP-COMPL-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCEP-COMPL-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CDDD-FONE-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CDDD-FONE-COTBT
+                                        TO CDDD-FONE-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CDDD-FONE-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CFONE-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CFONE-COTBT
+                                        TO CFONE-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CFONE-COTBT-NULL
+            END-IF.
+
+            IF TREIW-CINSCR-EST-COTBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CINSCR-EST-COTBT
+                                        TO CINSCR-EST-COTBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CINSCR-EST-COTBT-NULL
+            END-IF.
+
+            IF TREIW-VABTMT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VABTMT-PGTO
+                                        TO VABTMT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VABTMT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VMULTA-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VMULTA-PGTO
+                                        TO VMULTA-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VMULTA-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VMORA-ENCAR-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VMORA-ENCAR-PGTO
+                                        TO VMORA-ENCAR-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VMORA-ENCAR-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VEFTVC-CREDT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VEFTVC-CREDT-PGTO
+                                        TO VEFTVC-CREDT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VEFTVC-CREDT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-HEFTVC-CREDT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-HEFTVC-CREDT-PGTO
+                                        TO HEFTVC-CREDT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-HEFTVC-CREDT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CFGTS-PGTO-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CFGTS-PGTO-TRIBT
+                                        TO CFGTS-PGTO-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CFGTS-PGTO-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CAGTE-ARREC-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CAGTE-ARREC-TRIBT
+                                        TO CAGTE-ARREC-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CAGTE-ARREC-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-NREFT-PGTO-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NREFT-PGTO-TRIBT
+                                        TO NREFT-PGTO-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NREFT-PGTO-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-NCOTA-PCELA-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NCOTA-PCELA-TRIBT
+                                        TO NCOTA-PCELA-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NCOTA-PCELA-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-PRECTA-PGTO-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-PRECTA-PGTO-TRIBT
+                                        TO PRECTA-PGTO-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-PRECTA-PGTO-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-DREFT-PGTO-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DREFT-PGTO-TRIBT
+                                        TO DREFT-PGTO-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DREFT-PGTO-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-VATULZ-MONET-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VATULZ-MONET-TRIBT
+                                        TO VATULZ-MONET-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VATULZ-MONET-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CINFO-COMPL-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CINFO-COMPL-TRIBT
+                                        TO CINFO-COMPL-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CINFO-COMPL-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-RCOMPL-EMPR-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RCOMPL-EMPR-TRIBT
+                                        TO RCOMPL-EMPR-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RCOMPL-EMPR-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-RCOMPL-GUIA-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RCOMPL-GUIA-TRIBT
+                                        TO RCOMPL-GUIA-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RCOMPL-GUIA-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CLACRE-SCIAL-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CLACRE-SCIAL-TRIBT
+                                        TO CLACRE-SCIAL-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CLACRE-SCIAL-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CDIG-LACRE-SCIAL-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CDIG-LACRE-SCIAL
+                                        TO CDIG-LACRE-SCIAL
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CDIG-LACRE-SCIAL-NULL
+            END-IF.
+
+            IF TREIW-CTPO-DOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-DOCTO-PGTO
+                                        TO CTPO-DOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-DOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CDOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CDOCTO-PGTO
+                                        TO CDOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CDOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CSERIE-DOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSERIE-DOCTO-PGTO
+                                        TO CSERIE-DOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSERIE-DOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VDOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VDOCTO-PGTO
+                                        TO VDOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VDOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-DEMIS-DOCTO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DEMIS-DOCTO-PGTO
+                                        TO DEMIS-DOCTO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DEMIS-DOCTO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CPSSOA-CONTR-ESTRN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CPSSOA-CONTR-ESTRN
+                                        TO CPSSOA-CONTR-ESTRN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CPSSOA-CONTR-ESTRN-NULL
+            END-IF.
+
+            IF TREIW-CTPO-CONTR-ESTRN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-CONTR-ESTRN
+                                        TO CTPO-CONTR-ESTRN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-CONTR-ESTRN-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-CONTR-ESTRN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-CONTR-ESTRN
+                                        TO NSEQ-CONTR-ESTRN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-CONTR-ESTRN-NULL
+            END-IF.
+
+            IF TREIW-CPSSOA-CONTR-TARIF-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CPSSOA-CONTR-TARIF
+                                        TO CPSSOA-CONTR-TARIF
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CPSSOA-CONTR-TARIF-NULL
+            END-IF.
+
+            IF TREIW-CTPO-CONTR-TARIF-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-CONTR-TARIF
+                                        TO CTPO-CONTR-TARIF
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-CONTR-TARIF-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-CONTR-TARIF-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-CONTR-TARIF
+                                        TO NSEQ-CONTR-TARIF
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-CONTR-TARIF-NULL
+            END-IF.
+
+            IF TREIW-CPSSOA-ORIGE-REC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CPSSOA-ORIGE-REC
+                                        TO CPSSOA-ORIGE-REC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CPSSOA-ORIGE-REC-NULL
+            END-IF.
+
+            IF TREIW-CTPO-ORIGE-REC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-ORIGE-REC
+                                        TO CTPO-ORIGE-REC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-ORIGE-REC-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-ORIGE-REC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-ORIGE-REC
+                                        TO NSEQ-ORIGE-REC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-ORIGE-REC-NULL
+            END-IF.
+
+            IF TREIW-CPSSOA-JURID-CTBIL-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CPSSOA-JURID-CTBIL
+                                        TO CPSSOA-JURID-CTBIL
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CPSSOA-JURID-CTBIL-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-ORGNZ-CTBIL-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-ORGNZ-CTBIL
+                                        TO NSEQ-ORGNZ-CTBIL
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-ORGNZ-CTBIL-NULL
+            END-IF.
+
+            IF TREIW-DANO-OPER-DESC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DANO-OPER-DESC
+                                        TO DANO-OPER-DESC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DANO-OPER-DESC-NULL
+            END-IF.
+
+            IF TREIW-NSEQ-OPER-DESC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-NSEQ-OPER-DESC
+                                        TO NSEQ-OPER-DESC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-NSEQ-OPER-DESC-NULL
+            END-IF.
+
+            IF TREIW-IABREV-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-IABREV-PGDOR
+                                        TO IABREV-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-IABREV-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-ELOGDR-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ELOGDR-PGDOR
+                                        TO ELOGDR-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ELOGDR-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-ENRO-LOGDR-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ENRO-LOGDR-PGDOR
+                                        TO ENRO-LOGDR-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ENRO-LOGDR-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-ECOMPL-LOGDR-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-ECOMPL-LOGDR-PGDOR
+                                        TO ECOMPL-LOGDR-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-ECOMPL-LOGDR-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-EBAIRO-CLI-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-EBAIRO-CLI-PGDOR
+                                        TO EBAIRO-CLI-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-EBAIRO-CLI-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-IMUN-CLI-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-IMUN-CLI-PGDOR
+                                        TO IMUN-CLI-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-IMUN-CLI-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-CSGL-UF-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSGL-UF-PGDOR
+                                        TO CSGL-UF-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSGL-UF-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-CCEP-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCEP-PGDOR
+                                        TO CCEP-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCEP-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-CCEP-COMPL-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCEP-COMPL-PGDOR
+                                        TO CCEP-COMPL-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCEP-COMPL-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-CTPO-LYOUT-ARQ-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-LYOUT-ARQ
+                                        TO CTPO-LYOUT-ARQ
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-LYOUT-ARQ-NULL
+            END-IF.
+
+            IF TREIW-CTPO-LOTE-ARQ-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-LOTE-ARQ
+                                        TO CTPO-LOTE-ARQ
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-LOTE-ARQ-NULL
+            END-IF.
+
+            IF TREIW-CLYOUT-ORIGE-REMSS-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CLYOUT-ORIGE-REMSS
+                                        TO CLYOUT-ORIGE-REMSS
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CLYOUT-ORIGE-REMSS-NULL
+            END-IF.
+
+            IF TREIW-CVRSAO-LYOUT-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CVRSAO-LYOUT-CNAB
+                                        TO CVRSAO-LYOUT-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CVRSAO-LYOUT-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CVRSAO-LOTE-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CVRSAO-LOTE-CNAB
+                                        TO CVRSAO-LOTE-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CVRSAO-LOTE-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CINSTR-MOVTO-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CINSTR-MOVTO-CNAB
+                                        TO CINSTR-MOVTO-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CINSTR-MOVTO-CNAB-NULL
+            END-IF.
+
+            IF TREIW-COPER-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-COPER-CNAB
+                                        TO COPER-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-COPER-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CTPO-SERVC-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-SERVC-CNAB
+                                        TO CTPO-SERVC-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-SERVC-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CCOMPL-SERVC-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CCOMPL-SERVC-CNAB
+                                        TO CCOMPL-SERVC-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CCOMPL-SERVC-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CFORMA-LCTO-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CFORMA-LCTO-CNAB
+                                        TO CFORMA-LCTO-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CFORMA-LCTO-CNAB-NULL
+            END-IF.
+
+            IF TREIW-RINFO-COMPL-CNAB-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RINFO-COMPL-CNAB
+                                        TO RINFO-COMPL-CNAB
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RINFO-COMPL-CNAB-NULL
+            END-IF.
+
+            IF TREIW-CFORMA-LIQDC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CFORMA-LIQDC
+                                        TO CFORMA-LIQDC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CFORMA-LIQDC-NULL
+            END-IF.
+
+            IF TREIW-CSIST-PGTO-CLI-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSIST-PGTO-CLI
+                                        TO CSIST-PGTO-CLI
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSIST-PGTO-CLI-NULL
+            END-IF.
+
+            IF TREIW-CLISTA-DEB-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CLISTA-DEB-PGTO
+                                        TO CLISTA-DEB-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CLISTA-DEB-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CMOTVO-SIT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CMOTVO-SIT-PGTO
+                                        TO CMOTVO-SIT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CMOTVO-SIT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-QDIA-FLOAT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-QDIA-FLOAT-PGTO
+                                        TO QDIA-FLOAT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-QDIA-FLOAT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VFLOAT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VFLOAT-PGTO
+                                        TO VFLOAT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VFLOAT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-DFLOAT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DFLOAT-PGTO
+                                        TO DFLOAT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DFLOAT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-VEFTVC-DEB-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-VEFTVC-DEB-PGTO
+                                        TO VEFTVC-DEB-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-VEFTVC-DEB-PGTO-NULL
+            END-IF.
+
+            IF TREIW-HEFTVC-DEB-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-HEFTVC-DEB-PGTO
+                                        TO HEFTVC-DEB-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-HEFTVC-DEB-PGTO-NULL
+            END-IF.
+
+            IF TREIW-HDETRM-EFTVC-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-HDETRM-EFTVC-PGTO
+                                        TO HDETRM-EFTVC-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-HDETRM-EFTVC-PGTO-NULL
+            END-IF.
+
+            IF TREIW-QDIA-REPIQ-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-QDIA-REPIQ-PGTO
+                                        TO QDIA-REPIQ-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-QDIA-REPIQ-PGTO-NULL
+            END-IF.
+
+            IF TREIW-QDIA-REPIQ-EFTVC-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-QDIA-REPIQ-EFTVC
+                                        TO QDIA-REPIQ-EFTVC
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-QDIA-REPIQ-EFTVC-NULL
+            END-IF.
+
+            IF TREIW-CTPO-MANUT-ONLINE-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-MANUT-ONLINE
+                                        TO CTPO-MANUT-ONLINE
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-MANUT-ONLINE-NULL
+            END-IF.
+
+            IF TREIW-CSIT-MANUT-ONLINE-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CSIT-MANUT-ONLINE
+                                        TO CSIT-MANUT-ONLINE
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CSIT-MANUT-ONLINE-NULL
+            END-IF.
+
+            IF TREIW-CEVNTO-SIST-ORIGE-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CEVNTO-SIST-ORIGE
+                                        TO CEVNTO-SIST-ORIGE
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CEVNTO-SIST-ORIGE-NULL
+            END-IF.
+
+            IF TREIW-RPGTO-PGDOR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RPGTO-PGDOR
+                                        TO RPGTO-PGDOR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RPGTO-PGDOR-NULL
+            END-IF.
+
+            IF TREIW-RAUTEN-BCRIA-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RAUTEN-BCRIA-PGTO
+                                        TO RAUTEN-BCRIA-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RAUTEN-BCRIA-PGTO-NULL
+            END-IF.
+
+            IF TREIW-RMSGEM-GNRCO-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RMSGEM-GNRCO-PGTO
+                                        TO RMSGEM-GNRCO-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RMSGEM-GNRCO-PGTO-NULL
+            END-IF.
+
+            IF TREIW-RMSGEM-ESPEC-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RMSGEM-ESPEC-PGTO
+                                        TO RMSGEM-ESPEC-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RMSGEM-ESPEC-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CMSGEM-PRIM-LIN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CMSGEM-PRIM-LIN
+                                        TO CMSGEM-PRIM-LIN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CMSGEM-PRIM-LIN-NULL
+            END-IF.
+
+            IF TREIW-CMSGEM-SEGDA-LIN-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CMSGEM-SEGDA-LIN
+                                        TO CMSGEM-SEGDA-LIN
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CMSGEM-SEGDA-LIN-NULL
+            END-IF.
+
+            IF TREIW-RUSO-EMPR-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-RUSO-EMPR-PGTO
+                                        TO RUSO-EMPR-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-RUSO-EMPR-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CUSUAR-INCL-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CUSUAR-INCL
+                                        TO CUSUAR-INCL
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CUSUAR-INCL-NULL
+            END-IF.
+
+            IF TREIW-CUSUAR-INCL-EXTER-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CUSUAR-INCL-EXTER
+                                        TO CUSUAR-INCL-EXTER
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CUSUAR-INCL-EXTER-NULL
+            END-IF.
+
+            IF TREIW-CUSUAR-MANUT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CUSUAR-MANUT
+                                        TO CUSUAR-MANUT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CUSUAR-MANUT-NULL
+            END-IF.
+
+            IF TREIW-CUSUAR-MANUT-EXTER-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CUSUAR-MANUT-EXTER
+                                        TO CUSUAR-MANUT-EXTER
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CUSUAR-MANUT-EXTER-NULL
+            END-IF.
+
+            IF TREIW-HMANUT-REG-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-HMANUT-REG
+                                        TO HMANUT-REG
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-HMANUT-REG-NULL
+            END-IF.
+
+            IF TREIW-COPER-CANAL-MANUT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-COPER-CANAL-MANUT
+                                        TO COPER-CANAL-MANUT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-COPER-CANAL-MANUT-NULL
+            END-IF.
+
+            IF TREIW-CTPO-CANAL-MANUT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-CANAL-MANUT
+                                        TO CTPO-CANAL-MANUT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-CANAL-MANUT-NULL
+            END-IF.
+
+            IF TREIW-CINDCD-PEND-ENVIO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CINDCD-PEND-ENVIO
+                                        TO CINDCD-PEND-ENVIO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CINDCD-PEND-ENVIO-NULL
+            END-IF.
+
+            IF TREIW-CGRP-RECTA-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CGRP-RECTA-TRIBT
+                                        TO CGRP-RECTA-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CGRP-RECTA-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CTPO-RECTA-TRIBT-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CTPO-RECTA-TRIBT
+                                        TO CTPO-RECTA-TRIBT
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CTPO-RECTA-TRIBT-NULL
+            END-IF.
+
+            IF TREIW-CORG-PGDOR-ORGNZ-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CORG-PGDOR-ORGNZ
+                                        TO CORG-PGDOR-ORGNZ
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CORG-PGDOR-ORGNZ-NULL
+            END-IF.
+
+            IF TREIW-DEFETV-FLOAT-PGTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-DEFETV-FLOAT-PGTO
+                                        TO DEFETV-FLOAT-PGTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-DEFETV-FLOAT-PGTO-NULL
+            END-IF.
+
+            IF TREIW-CIDTFD-COMPV-GERDR-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CIDTFD-COMPV-GERDR
+                                        TO CIDTFD-COMPV-GERDR
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CIDTFD-COMPV-GERDR-NULL
+            END-IF.
+
+            IF TREIW-CIDTFD-VNCLO-LCTO-N
+                                        NOT EQUAL '?'
+                MOVE TREIW-CIDTFD-VNCLO-LCTO
+                                        TO CIDTFD-VNCLO-LCTO
+                                        OF TREIB
+            ELSE
+                MOVE -1                 TO WRK-CIDTFD-VNCLO-LCTO-NULL
+            END-IF.
+
+#################################################################
+MOVES DE CAMPOS NOT NULL
+
+            MOVE TREIW-22222222222222222222222222222
+                                        TO 22222222222222222222222222222
+                                        OF TREIB
+
+            MOVE TREIW-IABREV-COTBT
+                                        TO IABREV-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-ELOGDR-COTBT
+                                        TO ELOGDR-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-ENRO-LOGDR-COTBT
+                                        TO ENRO-LOGDR-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-ECOMPL-LOGDR-COTBT
+                                        TO ECOMPL-LOGDR-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-EBAIRO-LOGDR-COTBT
+                                        TO EBAIRO-LOGDR-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-IMUN-COTBT
+                                        TO IMUN-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-CSGL-UF-COTBT
+                                        TO CSGL-UF-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-CCEP-COTBT
+                                        TO CCEP-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-CCEP-COMPL-COTBT
+                                        TO CCEP-COMPL-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-CDDD-FONE-COTBT
+                                        TO CDDD-FONE-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-CFONE-COTBT
+                                        TO CFONE-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-CINSCR-EST-COTBT
+                                        TO CINSCR-EST-COTBT
+                                        OF TREIB
+
+            MOVE TREIW-VABTMT-PGTO
+                                        TO VABTMT-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-VMULTA-PGTO
+                                        TO VMULTA-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-VMORA-ENCAR-PGTO
+                                        TO VMORA-ENCAR-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-VEFTVC-CREDT-PGTO
+                                        TO VEFTVC-CREDT-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-HEFTVC-CREDT-PGTO
+                                        TO HEFTVC-CREDT-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-CFGTS-PGTO-TRIBT
+                                        TO CFGTS-PGTO-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-CAGTE-ARREC-TRIBT
+                                        TO CAGTE-ARREC-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-NREFT-PGTO-TRIBT
+                                        TO NREFT-PGTO-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-NCOTA-PCELA-TRIBT
+                                        TO NCOTA-PCELA-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-PRECTA-PGTO-TRIBT
+                                        TO PRECTA-PGTO-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-DREFT-PGTO-TRIBT
+                                        TO DREFT-PGTO-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-VATULZ-MONET-TRIBT
+                                        TO VATULZ-MONET-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-CINFO-COMPL-TRIBT
+                                        TO CINFO-COMPL-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-RCOMPL-EMPR-TRIBT
+                                        TO RCOMPL-EMPR-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-RCOMPL-GUIA-TRIBT
+                                        TO RCOMPL-GUIA-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-CLACRE-SCIAL-TRIBT
+                                        TO CLACRE-SCIAL-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-CDIG-LACRE-SCIAL
+                                        TO CDIG-LACRE-SCIAL
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-DOCTO-PGTO
+                                        TO CTPO-DOCTO-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-CDOCTO-PGTO
+                                        TO CDOCTO-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-CSERIE-DOCTO-PGTO
+                                        TO CSERIE-DOCTO-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-VDOCTO-PGTO
+                                        TO VDOCTO-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-DEMIS-DOCTO-PGTO
+                                        TO DEMIS-DOCTO-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-CPSSOA-CONTR-ESTRN
+                                        TO CPSSOA-CONTR-ESTRN
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-CONTR-ESTRN
+                                        TO CTPO-CONTR-ESTRN
+                                        OF TREIB
+
+            MOVE TREIW-NSEQ-CONTR-ESTRN
+                                        TO NSEQ-CONTR-ESTRN
+                                        OF TREIB
+
+            MOVE TREIW-CPSSOA-CONTR-TARIF
+                                        TO CPSSOA-CONTR-TARIF
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-CONTR-TARIF
+                                        TO CTPO-CONTR-TARIF
+                                        OF TREIB
+
+            MOVE TREIW-NSEQ-CONTR-TARIF
+                                        TO NSEQ-CONTR-TARIF
+                                        OF TREIB
+
+            MOVE TREIW-CPSSOA-ORIGE-REC
+                                        TO CPSSOA-ORIGE-REC
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-ORIGE-REC
+                                        TO CTPO-ORIGE-REC
+                                        OF TREIB
+
+            MOVE TREIW-NSEQ-ORIGE-REC
+                                        TO NSEQ-ORIGE-REC
+                                        OF TREIB
+
+            MOVE TREIW-CPSSOA-JURID-CTBIL
+                                        TO CPSSOA-JURID-CTBIL
+                                        OF TREIB
+
+            MOVE TREIW-NSEQ-ORGNZ-CTBIL
+                                        TO NSEQ-ORGNZ-CTBIL
+                                        OF TREIB
+
+            MOVE TREIW-DANO-OPER-DESC
+                                        TO DANO-OPER-DESC
+                                        OF TREIB
+
+            MOVE TREIW-NSEQ-OPER-DESC
+                                        TO NSEQ-OPER-DESC
+                                        OF TREIB
+
+            MOVE TREIW-IABREV-PGDOR
+                                        TO IABREV-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-ELOGDR-PGDOR
+                                        TO ELOGDR-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-ENRO-LOGDR-PGDOR
+                                        TO ENRO-LOGDR-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-ECOMPL-LOGDR-PGDOR
+                                        TO ECOMPL-LOGDR-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-EBAIRO-CLI-PGDOR
+                                        TO EBAIRO-CLI-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-IMUN-CLI-PGDOR
+                                        TO IMUN-CLI-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-CSGL-UF-PGDOR
+                                        TO CSGL-UF-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-CCEP-PGDOR
+                                        TO CCEP-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-CCEP-COMPL-PGDOR
+                                        TO CCEP-COMPL-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-LYOUT-ARQ
+                                        TO CTPO-LYOUT-ARQ
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-LOTE-ARQ
+                                        TO CTPO-LOTE-ARQ
+                                        OF TREIB
+
+            MOVE TREIW-CLYOUT-ORIGE-REMSS
+                                        TO CLYOUT-ORIGE-REMSS
+                                        OF TREIB
+
+            MOVE TREIW-CVRSAO-LYOUT-CNAB
+                                        TO CVRSAO-LYOUT-CNAB
+                                        OF TREIB
+
+            MOVE TREIW-CVRSAO-LOTE-CNAB
+                                        TO CVRSAO-LOTE-CNAB
+                                        OF TREIB
+
+            MOVE TREIW-CINSTR-MOVTO-CNAB
+                                        TO CINSTR-MOVTO-CNAB
+                                        OF TREIB
+
+            MOVE TREIW-COPER-CNAB
+                                        TO COPER-CNAB
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-SERVC-CNAB
+                                        TO CTPO-SERVC-CNAB
+                                        OF TREIB
+
+            MOVE TREIW-CCOMPL-SERVC-CNAB
+                                        TO CCOMPL-SERVC-CNAB
+                                        OF TREIB
+
+            MOVE TREIW-CFORMA-LCTO-CNAB
+                                        TO CFORMA-LCTO-CNAB
+                                        OF TREIB
+
+            MOVE TREIW-RINFO-COMPL-CNAB
+                                        TO RINFO-COMPL-CNAB
+                                        OF TREIB
+
+            MOVE TREIW-CFORMA-LIQDC
+                                        TO CFORMA-LIQDC
+                                        OF TREIB
+
+            MOVE TREIW-CSIST-PGTO-CLI
+                                        TO CSIST-PGTO-CLI
+                                        OF TREIB
+
+            MOVE TREIW-CLISTA-DEB-PGTO
+                                        TO CLISTA-DEB-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-CMOTVO-SIT-PGTO
+                                        TO CMOTVO-SIT-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-QDIA-FLOAT-PGTO
+                                        TO QDIA-FLOAT-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-VFLOAT-PGTO
+                                        TO VFLOAT-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-DFLOAT-PGTO
+                                        TO DFLOAT-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-VEFTVC-DEB-PGTO
+                                        TO VEFTVC-DEB-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-HEFTVC-DEB-PGTO
+                                        TO HEFTVC-DEB-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-HDETRM-EFTVC-PGTO
+                                        TO HDETRM-EFTVC-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-QDIA-REPIQ-PGTO
+                                        TO QDIA-REPIQ-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-QDIA-REPIQ-EFTVC
+                                        TO QDIA-REPIQ-EFTVC
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-MANUT-ONLINE
+                                        TO CTPO-MANUT-ONLINE
+                                        OF TREIB
+
+            MOVE TREIW-CSIT-MANUT-ONLINE
+                                        TO CSIT-MANUT-ONLINE
+                                        OF TREIB
+
+            MOVE TREIW-CEVNTO-SIST-ORIGE
+                                        TO CEVNTO-SIST-ORIGE
+                                        OF TREIB
+
+            MOVE TREIW-RPGTO-PGDOR
+                                        TO RPGTO-PGDOR
+                                        OF TREIB
+
+            MOVE TREIW-RAUTEN-BCRIA-PGTO
+                                        TO RAUTEN-BCRIA-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-RMSGEM-GNRCO-PGTO
+                                        TO RMSGEM-GNRCO-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-RMSGEM-ESPEC-PGTO
+                                        TO RMSGEM-ESPEC-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-CMSGEM-PRIM-LIN
+                                        TO CMSGEM-PRIM-LIN
+                                        OF TREIB
+
+            MOVE TREIW-CMSGEM-SEGDA-LIN
+                                        TO CMSGEM-SEGDA-LIN
+                                        OF TREIB
+
+            MOVE TREIW-RUSO-EMPR-PGTO
+                                        TO RUSO-EMPR-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-CUSUAR-INCL
+                                        TO CUSUAR-INCL
+                                        OF TREIB
+
+            MOVE TREIW-CUSUAR-INCL-EXTER
+                                        TO CUSUAR-INCL-EXTER
+                                        OF TREIB
+
+            MOVE TREIW-CUSUAR-MANUT
+                                        TO CUSUAR-MANUT
+                                        OF TREIB
+
+            MOVE TREIW-CUSUAR-MANUT-EXTER
+                                        TO CUSUAR-MANUT-EXTER
+                                        OF TREIB
+
+            MOVE TREIW-HMANUT-REG
+                                        TO HMANUT-REG
+                                        OF TREIB
+
+            MOVE TREIW-COPER-CANAL-MANUT
+                                        TO COPER-CANAL-MANUT
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-CANAL-MANUT
+                                        TO CTPO-CANAL-MANUT
+                                        OF TREIB
+
+            MOVE TREIW-CINDCD-PEND-ENVIO
+                                        TO CINDCD-PEND-ENVIO
+                                        OF TREIB
+
+            MOVE TREIW-CGRP-RECTA-TRIBT
+                                        TO CGRP-RECTA-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-CTPO-RECTA-TRIBT
+                                        TO CTPO-RECTA-TRIBT
+                                        OF TREIB
+
+            MOVE TREIW-CORG-PGDOR-ORGNZ
+                                        TO CORG-PGDOR-ORGNZ
+                                        OF TREIB
+
+            MOVE TREIW-DEFETV-FLOAT-PGTO
+                                        TO DEFETV-FLOAT-PGTO
+                                        OF TREIB
+
+            MOVE TREIW-CIDTFD-COMPV-GERDR
+                                        TO CIDTFD-COMPV-GERDR
+                                        OF TREIB
+
+            MOVE TREIW-CIDTFD-VNCLO-LCTO
+                                        TO CIDTFD-VNCLO-LCTO
+                                        OF TREIB
+
+#################################################################
+VARIAVEIS DE NULIDADE
+
+01  WRK-NULOS.
+ 05 WRK-1111111111111111111111111-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-IABREV-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ELOGDR-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ENRO-LOGDR-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ECOMPL-LOGDR-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-EBAIRO-LOGDR-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-IMUN-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSGL-UF-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCEP-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCEP-COMPL-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CDDD-FONE-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CFONE-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CINSCR-EST-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VABTMT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VMULTA-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VMORA-ENCAR-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VEFTVC-CREDT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-HEFTVC-CREDT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CFGTS-PGTO-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CAGTE-ARREC-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NREFT-PGTO-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NCOTA-PCELA-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-PRECTA-PGTO-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DREFT-PGTO-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VATULZ-MONET-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CINFO-COMPL-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RCOMPL-EMPR-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RCOMPL-GUIA-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CLACRE-SCIAL-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CDIG-LACRE-SCIAL-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-DOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CDOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSERIE-DOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VDOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DEMIS-DOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CPSSOA-CONTR-ESTRN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-CONTR-ESTRN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-CONTR-ESTRN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CPSSOA-CONTR-TARIF-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-CONTR-TARIF-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-CONTR-TARIF-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CPSSOA-ORIGE-REC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-ORIGE-REC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-ORIGE-REC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CPSSOA-JURID-CTBIL-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-ORGNZ-CTBIL-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DANO-OPER-DESC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-OPER-DESC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-IABREV-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ELOGDR-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ENRO-LOGDR-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ECOMPL-LOGDR-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-EBAIRO-CLI-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-IMUN-CLI-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSGL-UF-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCEP-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCEP-COMPL-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-LYOUT-ARQ-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-LOTE-ARQ-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CLYOUT-ORIGE-REMSS-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CVRSAO-LYOUT-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CVRSAO-LOTE-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CINSTR-MOVTO-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-COPER-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-SERVC-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCOMPL-SERVC-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CFORMA-LCTO-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RINFO-COMPL-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CFORMA-LIQDC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSIST-PGTO-CLI-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CLISTA-DEB-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CMOTVO-SIT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-QDIA-FLOAT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VFLOAT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DFLOAT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VEFTVC-DEB-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-HEFTVC-DEB-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-HDETRM-EFTVC-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-QDIA-REPIQ-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-QDIA-REPIQ-EFTVC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-MANUT-ONLINE-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSIT-MANUT-ONLINE-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CEVNTO-SIST-ORIGE-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RPGTO-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RAUTEN-BCRIA-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RMSGEM-GNRCO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RMSGEM-ESPEC-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CMSGEM-PRIM-LIN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CMSGEM-SEGDA-LIN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RUSO-EMPR-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CUSUAR-INCL-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CUSUAR-INCL-EXTER-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CUSUAR-MANUT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CUSUAR-MANUT-EXTER-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-HMANUT-REG-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-COPER-CANAL-MANUT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-CANAL-MANUT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CINDCD-PEND-ENVIO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CGRP-RECTA-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-RECTA-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CORG-PGDOR-ORGNZ-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DEFETV-FLOAT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CIDTFD-COMPV-GERDR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CIDTFD-VNCLO-LCTO                  IABREV-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ELOGDR-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ENRO-LOGDR-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ECOMPL-LOGDR-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-EBAIRO-LOGDR-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-IMUN-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSGL-UF-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCEP-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCEP-COMPL-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CDDD-FONE-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CFONE-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CINSCR-EST-COTBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VABTMT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VMULTA-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VMORA-ENCAR-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VEFTVC-CREDT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-HEFTVC-CREDT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CFGTS-PGTO-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CAGTE-ARREC-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NREFT-PGTO-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NCOTA-PCELA-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-PRECTA-PGTO-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DREFT-PGTO-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VATULZ-MONET-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CINFO-COMPL-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RCOMPL-EMPR-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RCOMPL-GUIA-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CLACRE-SCIAL-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CDIG-LACRE-SCIAL-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-DOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CDOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSERIE-DOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VDOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DEMIS-DOCTO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CPSSOA-CONTR-ESTRN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-CONTR-ESTRN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-CONTR-ESTRN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CPSSOA-CONTR-TARIF-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-CONTR-TARIF-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-CONTR-TARIF-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CPSSOA-ORIGE-REC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-ORIGE-REC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-ORIGE-REC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CPSSOA-JURID-CTBIL-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-ORGNZ-CTBIL-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DANO-OPER-DESC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-NSEQ-OPER-DESC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-IABREV-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ELOGDR-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ENRO-LOGDR-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-ECOMPL-LOGDR-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-EBAIRO-CLI-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-IMUN-CLI-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSGL-UF-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCEP-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCEP-COMPL-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-LYOUT-ARQ-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-LOTE-ARQ-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CLYOUT-ORIGE-REMSS-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CVRSAO-LYOUT-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CVRSAO-LOTE-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CINSTR-MOVTO-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-COPER-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-SERVC-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CCOMPL-SERVC-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CFORMA-LCTO-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RINFO-COMPL-CNAB-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CFORMA-LIQDC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSIST-PGTO-CLI-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CLISTA-DEB-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CMOTVO-SIT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-QDIA-FLOAT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VFLOAT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DFLOAT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-VEFTVC-DEB-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-HEFTVC-DEB-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-HDETRM-EFTVC-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-QDIA-REPIQ-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-QDIA-REPIQ-EFTVC-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-MANUT-ONLINE-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CSIT-MANUT-ONLINE-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CEVNTO-SIST-ORIGE-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RPGTO-PGDOR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RAUTEN-BCRIA-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RMSGEM-GNRCO-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RMSGEM-ESPEC-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CMSGEM-PRIM-LIN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CMSGEM-SEGDA-LIN-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-RUSO-EMPR-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CUSUAR-INCL-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CUSUAR-INCL-EXTER-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CUSUAR-MANUT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CUSUAR-MANUT-EXTER-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-HMANUT-REG-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-COPER-CANAL-MANUT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-CANAL-MANUT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CINDCD-PEND-ENVIO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CGRP-RECTA-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CTPO-RECTA-TRIBT-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CORG-PGDOR-ORGNZ-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-DEFETV-FLOAT-PGTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CIDTFD-COMPV-GERDR-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+ 05 WRK-CIDTFD-VNCLO-LCTO-NULL
+                                        PIC S9(004) COMP    VALUE ZEROS.
+#################################################################
+COMANDO SQL
+
+            EXEC SQL
+                INSERT INTO NOMETABELA
+                    (
+                       1111111111111111111111111
+                     , IABREV_COTBT
+                     , ELOGDR_COTBT
+                     , ENRO_LOGDR_COTBT
+                     , ECOMPL_LOGDR_COTBT
+                     , EBAIRO_LOGDR_COTBT
+                     , IMUN_COTBT
+                     , CSGL_UF_COTBT
+                     , CCEP_COTBT
+                     , CCEP_COMPL_COTBT
+                     , CDDD_FONE_COTBT
+                     , CFONE_COTBT
+                     , CINSCR_EST_COTBT
+                     , VABTMT_PGTO
+                     , VMULTA_PGTO
+                     , VMORA_ENCAR_PGTO
+                     , VEFTVC_CREDT_PGTO
+                     , HEFTVC_CREDT_PGTO
+                     , CFGTS_PGTO_TRIBT
+                     , CAGTE_ARREC_TRIBT
+                     , NREFT_PGTO_TRIBT
+                     , NCOTA_PCELA_TRIBT
+                     , PRECTA_PGTO_TRIBT
+                     , DREFT_PGTO_TRIBT
+                     , VATULZ_MONET_TRIBT
+                     , CINFO_COMPL_TRIBT
+                     , RCOMPL_EMPR_TRIBT
+                     , RCOMPL_GUIA_TRIBT
+                     , CLACRE_SCIAL_TRIBT
+                     , CDIG_LACRE_SCIAL
+                     , CTPO_DOCTO_PGTO
+                     , CDOCTO_PGTO
+                     , CSERIE_DOCTO_PGTO
+                     , VDOCTO_PGTO
+                     , DEMIS_DOCTO_PGTO
+                     , CPSSOA_CONTR_ESTRN
+                     , CTPO_CONTR_ESTRN
+                     , NSEQ_CONTR_ESTRN
+                     , CPSSOA_CONTR_TARIF
+                     , CTPO_CONTR_TARIF
+                     , NSEQ_CONTR_TARIF
+                     , CPSSOA_ORIGE_REC
+                     , CTPO_ORIGE_REC
+                     , NSEQ_ORIGE_REC
+                     , CPSSOA_JURID_CTBIL
+                     , NSEQ_ORGNZ_CTBIL
+                     , DANO_OPER_DESC
+                     , NSEQ_OPER_DESC
+                     , IABREV_PGDOR
+                     , ELOGDR_PGDOR
+                     , ENRO_LOGDR_PGDOR
+                     , ECOMPL_LOGDR_PGDOR
+                     , EBAIRO_CLI_PGDOR
+                     , IMUN_CLI_PGDOR
+                     , CSGL_UF_PGDOR
+                     , CCEP_PGDOR
+                     , CCEP_COMPL_PGDOR
+                     , CTPO_LYOUT_ARQ
+                     , CTPO_LOTE_ARQ
+                     , CLYOUT_ORIGE_REMSS
+                     , CVRSAO_LYOUT_CNAB
+                     , CVRSAO_LOTE_CNAB
+                     , CINSTR_MOVTO_CNAB
+                     , COPER_CNAB
+                     , CTPO_SERVC_CNAB
+                     , CCOMPL_SERVC_CNAB
+                     , CFORMA_LCTO_CNAB
+                     , RINFO_COMPL_CNAB
+                     , CFORMA_LIQDC
+                     , CSIST_PGTO_CLI
+                     , CLISTA_DEB_PGTO
+                     , CMOTVO_SIT_PGTO
+                     , QDIA_FLOAT_PGTO
+                     , VFLOAT_PGTO
+                     , DFLOAT_PGTO
+                     , VEFTVC_DEB_PGTO
+                     , HEFTVC_DEB_PGTO
+                     , HDETRM_EFTVC_PGTO
+                     , QDIA_REPIQ_PGTO
+                     , QDIA_REPIQ_EFTVC
+                     , CTPO_MANUT_ONLINE
+                     , CSIT_MANUT_ONLINE
+                     , CEVNTO_SIST_ORIGE
+                     , RPGTO_PGDOR
+                     , RAUTEN_BCRIA_PGTO
+                     , RMSGEM_GNRCO_PGTO
+                     , RMSGEM_ESPEC_PGTO
+                     , CMSGEM_PRIM_LIN
+                     , CMSGEM_SEGDA_LIN
+                     , RUSO_EMPR_PGTO
+                     , CUSUAR_INCL
+                     , CUSUAR_INCL_EXTER
+                     , CUSUAR_MANUT
+                     , CUSUAR_MANUT_EXTER
+                     , HMANUT_REG
+                     , COPER_CANAL_MANUT
+                     , CTPO_CANAL_MANUT
+                     , CINDCD_PEND_ENVIO
+                     , CGRP_RECTA_TRIBT
+                     , CTPO_RECTA_TRIBT
+                     , CORG_PGDOR_ORGNZ
+                     , DEFETV_FLOAT_PGTO
+                     , CIDTFD_COMPV_GERDR
+                     , CIDTFD_VNCLO_LCTO                  IABREV_COTBT
+                     , ELOGDR_COTBT
+                     , ENRO_LOGDR_COTBT
+                     , ECOMPL_LOGDR_COTBT
+                     , EBAIRO_LOGDR_COTBT
+                     , IMUN_COTBT
+                     , CSGL_UF_COTBT
+                     , CCEP_COTBT
+                     , CCEP_COMPL_COTBT
+                     , CDDD_FONE_COTBT
+                     , CFONE_COTBT
+                     , CINSCR_EST_COTBT
+                     , VABTMT_PGTO
+                     , VMULTA_PGTO
+                     , VMORA_ENCAR_PGTO
+                     , VEFTVC_CREDT_PGTO
+                     , HEFTVC_CREDT_PGTO
+                     , CFGTS_PGTO_TRIBT
+                     , CAGTE_ARREC_TRIBT
+                     , NREFT_PGTO_TRIBT
+                     , NCOTA_PCELA_TRIBT
+                     , PRECTA_PGTO_TRIBT
+                     , DREFT_PGTO_TRIBT
+                     , VATULZ_MONET_TRIBT
+                     , CINFO_COMPL_TRIBT
+                     , RCOMPL_EMPR_TRIBT
+                     , RCOMPL_GUIA_TRIBT
+                     , CLACRE_SCIAL_TRIBT
+                     , CDIG_LACRE_SCIAL
+                     , CTPO_DOCTO_PGTO
+                     , CDOCTO_PGTO
+                     , CSERIE_DOCTO_PGTO
+                     , VDOCTO_PGTO
+                     , DEMIS_DOCTO_PGTO
+                     , CPSSOA_CONTR_ESTRN
+                     , CTPO_CONTR_ESTRN
+                     , NSEQ_CONTR_ESTRN
+                     , CPSSOA_CONTR_TARIF
+                     , CTPO_CONTR_TARIF
+                     , NSEQ_CONTR_TARIF
+                     , CPSSOA_ORIGE_REC
+                     , CTPO_ORIGE_REC
+                     , NSEQ_ORIGE_REC
+                     , CPSSOA_JURID_CTBIL
+                     , NSEQ_ORGNZ_CTBIL
+                     , DANO_OPER_DESC
+                     , NSEQ_OPER_DESC
+                     , IABREV_PGDOR
+                     , ELOGDR_PGDOR
+                     , ENRO_LOGDR_PGDOR
+                     , ECOMPL_LOGDR_PGDOR
+                     , EBAIRO_CLI_PGDOR
+                     , IMUN_CLI_PGDOR
+                     , CSGL_UF_PGDOR
+                     , CCEP_PGDOR
+                     , CCEP_COMPL_PGDOR
+                     , CTPO_LYOUT_ARQ
+                     , CTPO_LOTE_ARQ
+                     , CLYOUT_ORIGE_REMSS
+                     , CVRSAO_LYOUT_CNAB
+                     , CVRSAO_LOTE_CNAB
+                     , CINSTR_MOVTO_CNAB
+                     , COPER_CNAB
+                     , CTPO_SERVC_CNAB
+                     , CCOMPL_SERVC_CNAB
+                     , CFORMA_LCTO_CNAB
+                     , RINFO_COMPL_CNAB
+                     , CFORMA_LIQDC
+                     , CSIST_PGTO_CLI
+                     , CLISTA_DEB_PGTO
+                     , CMOTVO_SIT_PGTO
+                     , QDIA_FLOAT_PGTO
+                     , VFLOAT_PGTO
+                     , DFLOAT_PGTO
+                     , VEFTVC_DEB_PGTO
+                     , HEFTVC_DEB_PGTO
+                     , HDETRM_EFTVC_PGTO
+                     , QDIA_REPIQ_PGTO
+                     , QDIA_REPIQ_EFTVC
+                     , CTPO_MANUT_ONLINE
+                     , CSIT_MANUT_ONLINE
+                     , CEVNTO_SIST_ORIGE
+                     , RPGTO_PGDOR
+                     , RAUTEN_BCRIA_PGTO
+                     , RMSGEM_GNRCO_PGTO
+                     , RMSGEM_ESPEC_PGTO
+                     , CMSGEM_PRIM_LIN
+                     , CMSGEM_SEGDA_LIN
+                     , RUSO_EMPR_PGTO
+                     , CUSUAR_INCL
+                     , CUSUAR_INCL_EXTER
+                     , CUSUAR_MANUT
+                     , CUSUAR_MANUT_EXTER
+                     , HMANUT_REG
+                     , COPER_CANAL_MANUT
+                     , CTPO_CANAL_MANUT
+                     , CINDCD_PEND_ENVIO
+                     , CGRP_RECTA_TRIBT
+                     , CTPO_RECTA_TRIBT
+                     , CORG_PGDOR_ORGNZ
+                     , DEFETV_FLOAT_PGTO
+                     , CIDTFD_COMPV_GERDR
+                     , CIDTFD_VNCLO_LCTO
+                     , 22222222222222222222222222222
+                     , IABREV_COTBT
+                     , ELOGDR_COTBT
+                     , ENRO_LOGDR_COTBT
+                     , ECOMPL_LOGDR_COTBT
+                     , EBAIRO_LOGDR_COTBT
+                     , IMUN_COTBT
+                     , CSGL_UF_COTBT
+                     , CCEP_COTBT
+                     , CCEP_COMPL_COTBT
+                     , CDDD_FONE_COTBT
+                     , CFONE_COTBT
+                     , CINSCR_EST_COTBT
+                     , VABTMT_PGTO
+                     , VMULTA_PGTO
+                     , VMORA_ENCAR_PGTO
+                     , VEFTVC_CREDT_PGTO
+                     , HEFTVC_CREDT_PGTO
+                     , CFGTS_PGTO_TRIBT
+                     , CAGTE_ARREC_TRIBT
+                     , NREFT_PGTO_TRIBT
+                     , NCOTA_PCELA_TRIBT
+                     , PRECTA_PGTO_TRIBT
+                     , DREFT_PGTO_TRIBT
+                     , VATULZ_MONET_TRIBT
+                     , CINFO_COMPL_TRIBT
+                     , RCOMPL_EMPR_TRIBT
+                     , RCOMPL_GUIA_TRIBT
+                     , CLACRE_SCIAL_TRIBT
+                     , CDIG_LACRE_SCIAL
+                     , CTPO_DOCTO_PGTO
+                     , CDOCTO_PGTO
+                     , CSERIE_DOCTO_PGTO
+                     , VDOCTO_PGTO
+                     , DEMIS_DOCTO_PGTO
+                     , CPSSOA_CONTR_ESTRN
+                     , CTPO_CONTR_ESTRN
+                     , NSEQ_CONTR_ESTRN
+                     , CPSSOA_CONTR_TARIF
+                     , CTPO_CONTR_TARIF
+                     , NSEQ_CONTR_TARIF
+                     , CPSSOA_ORIGE_REC
+                     , CTPO_ORIGE_REC
+                     , NSEQ_ORIGE_REC
+                     , CPSSOA_JURID_CTBIL
+                     , NSEQ_ORGNZ_CTBIL
+                     , DANO_OPER_DESC
+                     , NSEQ_OPER_DESC
+                     , IABREV_PGDOR
+                     , ELOGDR_PGDOR
+                     , ENRO_LOGDR_PGDOR
+                     , ECOMPL_LOGDR_PGDOR
+                     , EBAIRO_CLI_PGDOR
+                     , IMUN_CLI_PGDOR
+                     , CSGL_UF_PGDOR
+                     , CCEP_PGDOR
+                     , CCEP_COMPL_PGDOR
+                     , CTPO_LYOUT_ARQ
+                     , CTPO_LOTE_ARQ
+                     , CLYOUT_ORIGE_REMSS
+                     , CVRSAO_LYOUT_CNAB
+                     , CVRSAO_LOTE_CNAB
+                     , CINSTR_MOVTO_CNAB
+                     , COPER_CNAB
+                     , CTPO_SERVC_CNAB
+                     , CCOMPL_SERVC_CNAB
+                     , CFORMA_LCTO_CNAB
+                     , RINFO_COMPL_CNAB
+                     , CFORMA_LIQDC
+                     , CSIST_PGTO_CLI
+                     , CLISTA_DEB_PGTO
+                     , CMOTVO_SIT_PGTO
+                     , QDIA_FLOAT_PGTO
+                     , VFLOAT_PGTO
+                     , DFLOAT_PGTO
+                     , VEFTVC_DEB_PGTO
+                     , HEFTVC_DEB_PGTO
+                     , HDETRM_EFTVC_PGTO
+                     , QDIA_REPIQ_PGTO
+                     , QDIA_REPIQ_EFTVC
+                     , CTPO_MANUT_ONLINE
+                     , CSIT_MANUT_ONLINE
+                     , CEVNTO_SIST_ORIGE
+                     , RPGTO_PGDOR
+                     , RAUTEN_BCRIA_PGTO
+                     , RMSGEM_GNRCO_PGTO
+                     , RMSGEM_ESPEC_PGTO
+                     , CMSGEM_PRIM_LIN
+                     , CMSGEM_SEGDA_LIN
+                     , RUSO_EMPR_PGTO
+                     , CUSUAR_INCL
+                     , CUSUAR_INCL_EXTER
+                     , CUSUAR_MANUT
+                     , CUSUAR_MANUT_EXTER
+                     , HMANUT_REG
+                     , COPER_CANAL_MANUT
+                     , CTPO_CANAL_MANUT
+                     , CINDCD_PEND_ENVIO
+                     , CGRP_RECTA_TRIBT
+                     , CTPO_RECTA_TRIBT
+                     , CORG_PGDOR_ORGNZ
+                     , DEFETV_FLOAT_PGTO
+                     , CIDTFD_COMPV_GERDR
+                     , CIDTFD_VNCLO_LCTO
+                    )
+                VALUES
+                    (
+                       :TREIW.1111111111111111111111111
+                            :WRK-1111111111111111111111111-NULL
+                     , :TREIW.IABREV-COTBT
+                            :WRK-IABREV-COTBT-NULL
+                     , :TREIW.ELOGDR-COTBT
+                            :WRK-ELOGDR-COTBT-NULL
+                     , :TREIW.ENRO-LOGDR-COTBT
+                            :WRK-ENRO-LOGDR-COTBT-NULL
+                     , :TREIW.ECOMPL-LOGDR-COTBT
+                            :WRK-ECOMPL-LOGDR-COTBT-NULL
+                     , :TREIW.EBAIRO-LOGDR-COTBT
+                            :WRK-EBAIRO-LOGDR-COTBT-NULL
+                     , :TREIW.IMUN-COTBT
+                            :WRK-IMUN-COTBT-NULL
+                     , :TREIW.CSGL-UF-COTBT
+                            :WRK-CSGL-UF-COTBT-NULL
+                     , :TREIW.CCEP-COTBT
+                            :WRK-CCEP-COTBT-NULL
+                     , :TREIW.CCEP-COMPL-COTBT
+                            :WRK-CCEP-COMPL-COTBT-NULL
+                     , :TREIW.CDDD-FONE-COTBT
+                            :WRK-CDDD-FONE-COTBT-NULL
+                     , :TREIW.CFONE-COTBT
+                            :WRK-CFONE-COTBT-NULL
+                     , :TREIW.CINSCR-EST-COTBT
+                            :WRK-CINSCR-EST-COTBT-NULL
+                     , :TREIW.VABTMT-PGTO
+                            :WRK-VABTMT-PGTO-NULL
+                     , :TREIW.VMULTA-PGTO
+                            :WRK-VMULTA-PGTO-NULL
+                     , :TREIW.VMORA-ENCAR-PGTO
+                            :WRK-VMORA-ENCAR-PGTO-NULL
+                     , :TREIW.VEFTVC-CREDT-PGTO
+                            :WRK-VEFTVC-CREDT-PGTO-NULL
+                     , :TREIW.HEFTVC-CREDT-PGTO
+                            :WRK-HEFTVC-CREDT-PGTO-NULL
+                     , :TREIW.CFGTS-PGTO-TRIBT
+                            :WRK-CFGTS-PGTO-TRIBT-NULL
+                     , :TREIW.CAGTE-ARREC-TRIBT
+                            :WRK-CAGTE-ARREC-TRIBT-NULL
+                     , :TREIW.NREFT-PGTO-TRIBT
+                            :WRK-NREFT-PGTO-TRIBT-NULL
+                     , :TREIW.NCOTA-PCELA-TRIBT
+                            :WRK-NCOTA-PCELA-TRIBT-NULL
+                     , :TREIW.PRECTA-PGTO-TRIBT
+                            :WRK-PRECTA-PGTO-TRIBT-NULL
+                     , :TREIW.DREFT-PGTO-TRIBT
+                            :WRK-DREFT-PGTO-TRIBT-NULL
+                     , :TREIW.VATULZ-MONET-TRIBT
+                            :WRK-VATULZ-MONET-TRIBT-NULL
+                     , :TREIW.CINFO-COMPL-TRIBT
+                            :WRK-CINFO-COMPL-TRIBT-NULL
+                     , :TREIW.RCOMPL-EMPR-TRIBT
+                            :WRK-RCOMPL-EMPR-TRIBT-NULL
+                     , :TREIW.RCOMPL-GUIA-TRIBT
+                            :WRK-RCOMPL-GUIA-TRIBT-NULL
+                     , :TREIW.CLACRE-SCIAL-TRIBT
+                            :WRK-CLACRE-SCIAL-TRIBT-NULL
+                     , :TREIW.CDIG-LACRE-SCIAL
+                            :WRK-CDIG-LACRE-SCIAL-NULL
+                     , :TREIW.CTPO-DOCTO-PGTO
+                            :WRK-CTPO-DOCTO-PGTO-NULL
+                     , :TREIW.CDOCTO-PGTO
+                            :WRK-CDOCTO-PGTO-NULL
+                     , :TREIW.CSERIE-DOCTO-PGTO
+                            :WRK-CSERIE-DOCTO-PGTO-NULL
+                     , :TREIW.VDOCTO-PGTO
+                            :WRK-VDOCTO-PGTO-NULL
+                     , :TREIW.DEMIS-DOCTO-PGTO
+                            :WRK-DEMIS-DOCTO-PGTO-NULL
+                     , :TREIW.CPSSOA-CONTR-ESTRN
+                            :WRK-CPSSOA-CONTR-ESTRN-NULL
+                     , :TREIW.CTPO-CONTR-ESTRN
+                            :WRK-CTPO-CONTR-ESTRN-NULL
+                     , :TREIW.NSEQ-CONTR-ESTRN
+                            :WRK-NSEQ-CONTR-ESTRN-NULL
+                     , :TREIW.CPSSOA-CONTR-TARIF
+                            :WRK-CPSSOA-CONTR-TARIF-NULL
+                     , :TREIW.CTPO-CONTR-TARIF
+                            :WRK-CTPO-CONTR-TARIF-NULL
+                     , :TREIW.NSEQ-CONTR-TARIF
+                            :WRK-NSEQ-CONTR-TARIF-NULL
+                     , :TREIW.CPSSOA-ORIGE-REC
+                            :WRK-CPSSOA-ORIGE-REC-NULL
+                     , :TREIW.CTPO-ORIGE-REC
+                            :WRK-CTPO-ORIGE-REC-NULL
+                     , :TREIW.NSEQ-ORIGE-REC
+                            :WRK-NSEQ-ORIGE-REC-NULL
+                     , :TREIW.CPSSOA-JURID-CTBIL
+                            :WRK-CPSSOA-JURID-CTBIL-NULL
+                     , :TREIW.NSEQ-ORGNZ-CTBIL
+                            :WRK-NSEQ-ORGNZ-CTBIL-NULL
+                     , :TREIW.DANO-OPER-DESC
+                            :WRK-DANO-OPER-DESC-NULL
+                     , :TREIW.NSEQ-OPER-DESC
+                            :WRK-NSEQ-OPER-DESC-NULL
+                     , :TREIW.IABREV-PGDOR
+                            :WRK-IABREV-PGDOR-NULL
+                     , :TREIW.ELOGDR-PGDOR
+                            :WRK-ELOGDR-PGDOR-NULL
+                     , :TREIW.ENRO-LOGDR-PGDOR
+                            :WRK-ENRO-LOGDR-PGDOR-NULL
+                     , :TREIW.ECOMPL-LOGDR-PGDOR
+                            :WRK-ECOMPL-LOGDR-PGDOR-NULL
+                     , :TREIW.EBAIRO-CLI-PGDOR
+                            :WRK-EBAIRO-CLI-PGDOR-NULL
+                     , :TREIW.IMUN-CLI-PGDOR
+                            :WRK-IMUN-CLI-PGDOR-NULL
+                     , :TREIW.CSGL-UF-PGDOR
+                            :WRK-CSGL-UF-PGDOR-NULL
+                     , :TREIW.CCEP-PGDOR
+                            :WRK-CCEP-PGDOR-NULL
+                     , :TREIW.CCEP-COMPL-PGDOR
+                            :WRK-CCEP-COMPL-PGDOR-NULL
+                     , :TREIW.CTPO-LYOUT-ARQ
+                            :WRK-CTPO-LYOUT-ARQ-NULL
+                     , :TREIW.CTPO-LOTE-ARQ
+                            :WRK-CTPO-LOTE-ARQ-NULL
+                     , :TREIW.CLYOUT-ORIGE-REMSS
+                            :WRK-CLYOUT-ORIGE-REMSS-NULL
+                     , :TREIW.CVRSAO-LYOUT-CNAB
+                            :WRK-CVRSAO-LYOUT-CNAB-NULL
+                     , :TREIW.CVRSAO-LOTE-CNAB
+                            :WRK-CVRSAO-LOTE-CNAB-NULL
+                     , :TREIW.CINSTR-MOVTO-CNAB
+                            :WRK-CINSTR-MOVTO-CNAB-NULL
+                     , :TREIW.COPER-CNAB
+                            :WRK-COPER-CNAB-NULL
+                     , :TREIW.CTPO-SERVC-CNAB
+                            :WRK-CTPO-SERVC-CNAB-NULL
+                     , :TREIW.CCOMPL-SERVC-CNAB
+                            :WRK-CCOMPL-SERVC-CNAB-NULL
+                     , :TREIW.CFORMA-LCTO-CNAB
+                            :WRK-CFORMA-LCTO-CNAB-NULL
+                     , :TREIW.RINFO-COMPL-CNAB
+                            :WRK-RINFO-COMPL-CNAB-NULL
+                     , :TREIW.CFORMA-LIQDC
+                            :WRK-CFORMA-LIQDC-NULL
+                     , :TREIW.CSIST-PGTO-CLI
+                            :WRK-CSIST-PGTO-CLI-NULL
+                     , :TREIW.CLISTA-DEB-PGTO
+                            :WRK-CLISTA-DEB-PGTO-NULL
+                     , :TREIW.CMOTVO-SIT-PGTO
+                            :WRK-CMOTVO-SIT-PGTO-NULL
+                     , :TREIW.QDIA-FLOAT-PGTO
+                            :WRK-QDIA-FLOAT-PGTO-NULL
+                     , :TREIW.VFLOAT-PGTO
+                            :WRK-VFLOAT-PGTO-NULL
+                     , :TREIW.DFLOAT-PGTO
+                            :WRK-DFLOAT-PGTO-NULL
+                     , :TREIW.VEFTVC-DEB-PGTO
+                            :WRK-VEFTVC-DEB-PGTO-NULL
+                     , :TREIW.HEFTVC-DEB-PGTO
+                            :WRK-HEFTVC-DEB-PGTO-NULL
+                     , :TREIW.HDETRM-EFTVC-PGTO
+                            :WRK-HDETRM-EFTVC-PGTO-NULL
+                     , :TREIW.QDIA-REPIQ-PGTO
+                            :WRK-QDIA-REPIQ-PGTO-NULL
+                     , :TREIW.QDIA-REPIQ-EFTVC
+                            :WRK-QDIA-REPIQ-EFTVC-NULL
+                     , :TREIW.CTPO-MANUT-ONLINE
+                            :WRK-CTPO-MANUT-ONLINE-NULL
+                     , :TREIW.CSIT-MANUT-ONLINE
+                            :WRK-CSIT-MANUT-ONLINE-NULL
+                     , :TREIW.CEVNTO-SIST-ORIGE
+                            :WRK-CEVNTO-SIST-ORIGE-NULL
+                     , :TREIW.RPGTO-PGDOR
+                            :WRK-RPGTO-PGDOR-NULL
+                     , :TREIW.RAUTEN-BCRIA-PGTO
+                            :WRK-RAUTEN-BCRIA-PGTO-NULL
+                     , :TREIW.RMSGEM-GNRCO-PGTO
+                            :WRK-RMSGEM-GNRCO-PGTO-NULL
+                     , :TREIW.RMSGEM-ESPEC-PGTO
+                            :WRK-RMSGEM-ESPEC-PGTO-NULL
+                     , :TREIW.CMSGEM-PRIM-LIN
+                            :WRK-CMSGEM-PRIM-LIN-NULL
+                     , :TREIW.CMSGEM-SEGDA-LIN
+                            :WRK-CMSGEM-SEGDA-LIN-NULL
+                     , :TREIW.RUSO-EMPR-PGTO
+                            :WRK-RUSO-EMPR-PGTO-NULL
+                     , :TREIW.CUSUAR-INCL
+                            :WRK-CUSUAR-INCL-NULL
+                     , :TREIW.CUSUAR-INCL-EXTER
+                            :WRK-CUSUAR-INCL-EXTER-NULL
+                     , :TREIW.CUSUAR-MANUT
+                            :WRK-CUSUAR-MANUT-NULL
+                     , :TREIW.CUSUAR-MANUT-EXTER
+                            :WRK-CUSUAR-MANUT-EXTER-NULL
+                     , :TREIW.HMANUT-REG
+                            :WRK-HMANUT-REG-NULL
+                     , :TREIW.COPER-CANAL-MANUT
+                            :WRK-COPER-CANAL-MANUT-NULL
+                     , :TREIW.CTPO-CANAL-MANUT
+                            :WRK-CTPO-CANAL-MANUT-NULL
+                     , :TREIW.CINDCD-PEND-ENVIO
+                            :WRK-CINDCD-PEND-ENVIO-NULL
+                     , :TREIW.CGRP-RECTA-TRIBT
+                            :WRK-CGRP-RECTA-TRIBT-NULL
+                     , :TREIW.CTPO-RECTA-TRIBT
+                            :WRK-CTPO-RECTA-TRIBT-NULL
+                     , :TREIW.CORG-PGDOR-ORGNZ
+                            :WRK-CORG-PGDOR-ORGNZ-NULL
+                     , :TREIW.DEFETV-FLOAT-PGTO
+                            :WRK-DEFETV-FLOAT-PGTO-NULL
+                     , :TREIW.CIDTFD-COMPV-GERDR
+                            :WRK-CIDTFD-COMPV-GERDR-NULL
+                     , :TREIW.CIDTFD-VNCLO-LCTO                  IABREV-COTBT
+                            :WRK-CIDTFD-VNCLO-LCTO                  IABREV-COTBT-NULL
+                     , :TREIW.ELOGDR-COTBT
+                            :WRK-ELOGDR-COTBT-NULL
+                     , :TREIW.ENRO-LOGDR-COTBT
+                            :WRK-ENRO-LOGDR-COTBT-NULL
+                     , :TREIW.ECOMPL-LOGDR-COTBT
+                            :WRK-ECOMPL-LOGDR-COTBT-NULL
+                     , :TREIW.EBAIRO-LOGDR-COTBT
+                            :WRK-EBAIRO-LOGDR-COTBT-NULL
+                     , :TREIW.IMUN-COTBT
+                            :WRK-IMUN-COTBT-NULL
+                     , :TREIW.CSGL-UF-COTBT
+                            :WRK-CSGL-UF-COTBT-NULL
+                     , :TREIW.CCEP-COTBT
+                            :WRK-CCEP-COTBT-NULL
+                     , :TREIW.CCEP-COMPL-COTBT
+                            :WRK-CCEP-COMPL-COTBT-NULL
+                     , :TREIW.CDDD-FONE-COTBT
+                            :WRK-CDDD-FONE-COTBT-NULL
+                     , :TREIW.CFONE-COTBT
+                            :WRK-CFONE-COTBT-NULL
+                     , :TREIW.CINSCR-EST-COTBT
+                            :WRK-CINSCR-EST-COTBT-NULL
+                     , :TREIW.VABTMT-PGTO
+                            :WRK-VABTMT-PGTO-NULL
+                     , :TREIW.VMULTA-PGTO
+                            :WRK-VMULTA-PGTO-NULL
+                     , :TREIW.VMORA-ENCAR-PGTO
+                            :WRK-VMORA-ENCAR-PGTO-NULL
+                     , :TREIW.VEFTVC-CREDT-PGTO
+                            :WRK-VEFTVC-CREDT-PGTO-NULL
+                     , :TREIW.HEFTVC-CREDT-PGTO
+                            :WRK-HEFTVC-CREDT-PGTO-NULL
+                     , :TREIW.CFGTS-PGTO-TRIBT
+                            :WRK-CFGTS-PGTO-TRIBT-NULL
+                     , :TREIW.CAGTE-ARREC-TRIBT
+                            :WRK-CAGTE-ARREC-TRIBT-NULL
+                     , :TREIW.NREFT-PGTO-TRIBT
+                            :WRK-NREFT-PGTO-TRIBT-NULL
+                     , :TREIW.NCOTA-PCELA-TRIBT
+                            :WRK-NCOTA-PCELA-TRIBT-NULL
+                     , :TREIW.PRECTA-PGTO-TRIBT
+                            :WRK-PRECTA-PGTO-TRIBT-NULL
+                     , :TREIW.DREFT-PGTO-TRIBT
+                            :WRK-DREFT-PGTO-TRIBT-NULL
+                     , :TREIW.VATULZ-MONET-TRIBT
+                            :WRK-VATULZ-MONET-TRIBT-NULL
+                     , :TREIW.CINFO-COMPL-TRIBT
+                            :WRK-CINFO-COMPL-TRIBT-NULL
+                     , :TREIW.RCOMPL-EMPR-TRIBT
+                            :WRK-RCOMPL-EMPR-TRIBT-NULL
+                     , :TREIW.RCOMPL-GUIA-TRIBT
+                            :WRK-RCOMPL-GUIA-TRIBT-NULL
+                     , :TREIW.CLACRE-SCIAL-TRIBT
+                            :WRK-CLACRE-SCIAL-TRIBT-NULL
+                     , :TREIW.CDIG-LACRE-SCIAL
+                            :WRK-CDIG-LACRE-SCIAL-NULL
+                     , :TREIW.CTPO-DOCTO-PGTO
+                            :WRK-CTPO-DOCTO-PGTO-NULL
+                     , :TREIW.CDOCTO-PGTO
+                            :WRK-CDOCTO-PGTO-NULL
+                     , :TREIW.CSERIE-DOCTO-PGTO
+                            :WRK-CSERIE-DOCTO-PGTO-NULL
+                     , :TREIW.VDOCTO-PGTO
+                            :WRK-VDOCTO-PGTO-NULL
+                     , :TREIW.DEMIS-DOCTO-PGTO
+                            :WRK-DEMIS-DOCTO-PGTO-NULL
+                     , :TREIW.CPSSOA-CONTR-ESTRN
+                            :WRK-CPSSOA-CONTR-ESTRN-NULL
+                     , :TREIW.CTPO-CONTR-ESTRN
+                            :WRK-CTPO-CONTR-ESTRN-NULL
+                     , :TREIW.NSEQ-CONTR-ESTRN
+                            :WRK-NSEQ-CONTR-ESTRN-NULL
+                     , :TREIW.CPSSOA-CONTR-TARIF
+                            :WRK-CPSSOA-CONTR-TARIF-NULL
+                     , :TREIW.CTPO-CONTR-TARIF
+                            :WRK-CTPO-CONTR-TARIF-NULL
+                     , :TREIW.NSEQ-CONTR-TARIF
+                            :WRK-NSEQ-CONTR-TARIF-NULL
+                     , :TREIW.CPSSOA-ORIGE-REC
+                            :WRK-CPSSOA-ORIGE-REC-NULL
+                     , :TREIW.CTPO-ORIGE-REC
+                            :WRK-CTPO-ORIGE-REC-NULL
+                     , :TREIW.NSEQ-ORIGE-REC
+                            :WRK-NSEQ-ORIGE-REC-NULL
+                     , :TREIW.CPSSOA-JURID-CTBIL
+                            :WRK-CPSSOA-JURID-CTBIL-NULL
+                     , :TREIW.NSEQ-ORGNZ-CTBIL
+                            :WRK-NSEQ-ORGNZ-CTBIL-NULL
+                     , :TREIW.DANO-OPER-DESC
+                            :WRK-DANO-OPER-DESC-NULL
+                     , :TREIW.NSEQ-OPER-DESC
+                            :WRK-NSEQ-OPER-DESC-NULL
+                     , :TREIW.IABREV-PGDOR
+                            :WRK-IABREV-PGDOR-NULL
+                     , :TREIW.ELOGDR-PGDOR
+                            :WRK-ELOGDR-PGDOR-NULL
+                     , :TREIW.ENRO-LOGDR-PGDOR
+                            :WRK-ENRO-LOGDR-PGDOR-NULL
+                     , :TREIW.ECOMPL-LOGDR-PGDOR
+                            :WRK-ECOMPL-LOGDR-PGDOR-NULL
+                     , :TREIW.EBAIRO-CLI-PGDOR
+                            :WRK-EBAIRO-CLI-PGDOR-NULL
+                     , :TREIW.IMUN-CLI-PGDOR
+                            :WRK-IMUN-CLI-PGDOR-NULL
+                     , :TREIW.CSGL-UF-PGDOR
+                            :WRK-CSGL-UF-PGDOR-NULL
+                     , :TREIW.CCEP-PGDOR
+                            :WRK-CCEP-PGDOR-NULL
+                     , :TREIW.CCEP-COMPL-PGDOR
+                            :WRK-CCEP-COMPL-PGDOR-NULL
+                     , :TREIW.CTPO-LYOUT-ARQ
+                            :WRK-CTPO-LYOUT-ARQ-NULL
+                     , :TREIW.CTPO-LOTE-ARQ
+                            :WRK-CTPO-LOTE-ARQ-NULL
+                     , :TREIW.CLYOUT-ORIGE-REMSS
+                            :WRK-CLYOUT-ORIGE-REMSS-NULL
+                     , :TREIW.CVRSAO-LYOUT-CNAB
+                            :WRK-CVRSAO-LYOUT-CNAB-NULL
+                     , :TREIW.CVRSAO-LOTE-CNAB
+                            :WRK-CVRSAO-LOTE-CNAB-NULL
+                     , :TREIW.CINSTR-MOVTO-CNAB
+                            :WRK-CINSTR-MOVTO-CNAB-NULL
+                     , :TREIW.COPER-CNAB
+                            :WRK-COPER-CNAB-NULL
+                     , :TREIW.CTPO-SERVC-CNAB
+                            :WRK-CTPO-SERVC-CNAB-NULL
+                     , :TREIW.CCOMPL-SERVC-CNAB
+                            :WRK-CCOMPL-SERVC-CNAB-NULL
+                     , :TREIW.CFORMA-LCTO-CNAB
+                            :WRK-CFORMA-LCTO-CNAB-NULL
+                     , :TREIW.RINFO-COMPL-CNAB
+                            :WRK-RINFO-COMPL-CNAB-NULL
+                     , :TREIW.CFORMA-LIQDC
+                            :WRK-CFORMA-LIQDC-NULL
+                     , :TREIW.CSIST-PGTO-CLI
+                            :WRK-CSIST-PGTO-CLI-NULL
+                     , :TREIW.CLISTA-DEB-PGTO
+                            :WRK-CLISTA-DEB-PGTO-NULL
+                     , :TREIW.CMOTVO-SIT-PGTO
+                            :WRK-CMOTVO-SIT-PGTO-NULL
+                     , :TREIW.QDIA-FLOAT-PGTO
+                            :WRK-QDIA-FLOAT-PGTO-NULL
+                     , :TREIW.VFLOAT-PGTO
+                            :WRK-VFLOAT-PGTO-NULL
+                     , :TREIW.DFLOAT-PGTO
+                            :WRK-DFLOAT-PGTO-NULL
+                     , :TREIW.VEFTVC-DEB-PGTO
+                            :WRK-VEFTVC-DEB-PGTO-NULL
+                     , :TREIW.HEFTVC-DEB-PGTO
+                            :WRK-HEFTVC-DEB-PGTO-NULL
+                     , :TREIW.HDETRM-EFTVC-PGTO
+                            :WRK-HDETRM-EFTVC-PGTO-NULL
+                     , :TREIW.QDIA-REPIQ-PGTO
+                            :WRK-QDIA-REPIQ-PGTO-NULL
+                     , :TREIW.QDIA-REPIQ-EFTVC
+                            :WRK-QDIA-REPIQ-EFTVC-NULL
+                     , :TREIW.CTPO-MANUT-ONLINE
+                            :WRK-CTPO-MANUT-ONLINE-NULL
+                     , :TREIW.CSIT-MANUT-ONLINE
+                            :WRK-CSIT-MANUT-ONLINE-NULL
+                     , :TREIW.CEVNTO-SIST-ORIGE
+                            :WRK-CEVNTO-SIST-ORIGE-NULL
+                     , :TREIW.RPGTO-PGDOR
+                            :WRK-RPGTO-PGDOR-NULL
+                     , :TREIW.RAUTEN-BCRIA-PGTO
+                            :WRK-RAUTEN-BCRIA-PGTO-NULL
+                     , :TREIW.RMSGEM-GNRCO-PGTO
+                            :WRK-RMSGEM-GNRCO-PGTO-NULL
+                     , :TREIW.RMSGEM-ESPEC-PGTO
+                            :WRK-RMSGEM-ESPEC-PGTO-NULL
+                     , :TREIW.CMSGEM-PRIM-LIN
+                            :WRK-CMSGEM-PRIM-LIN-NULL
+                     , :TREIW.CMSGEM-SEGDA-LIN
+                            :WRK-CMSGEM-SEGDA-LIN-NULL
+                     , :TREIW.RUSO-EMPR-PGTO
+                            :WRK-RUSO-EMPR-PGTO-NULL
+                     , :TREIW.CUSUAR-INCL
+                            :WRK-CUSUAR-INCL-NULL
+                     , :TREIW.CUSUAR-INCL-EXTER
+                            :WRK-CUSUAR-INCL-EXTER-NULL
+                     , :TREIW.CUSUAR-MANUT
+                            :WRK-CUSUAR-MANUT-NULL
+                     , :TREIW.CUSUAR-MANUT-EXTER
+                            :WRK-CUSUAR-MANUT-EXTER-NULL
+                     , :TREIW.HMANUT-REG
+                            :WRK-HMANUT-REG-NULL
+                     , :TREIW.COPER-CANAL-MANUT
+                            :WRK-COPER-CANAL-MANUT-NULL
+                     , :TREIW.CTPO-CANAL-MANUT
+                            :WRK-CTPO-CANAL-MANUT-NULL
+                     , :TREIW.CINDCD-PEND-ENVIO
+                            :WRK-CINDCD-PEND-ENVIO-NULL
+                     , :TREIW.CGRP-RECTA-TRIBT
+                            :WRK-CGRP-RECTA-TRIBT-NULL
+                     , :TREIW.CTPO-RECTA-TRIBT
+                            :WRK-CTPO-RECTA-TRIBT-NULL
+                     , :TREIW.CORG-PGDOR-ORGNZ
+                            :WRK-CORG-PGDOR-ORGNZ-NULL
+                     , :TREIW.DEFETV-FLOAT-PGTO
+                            :WRK-DEFETV-FLOAT-PGTO-NULL
+                     , :TREIW.CIDTFD-COMPV-GERDR
+                            :WRK-CIDTFD-COMPV-GERDR-NULL
+                     , :TREIW.CIDTFD-VNCLO-LCTO
+                            :WRK-CIDTFD-VNCLO-LCTO-NULL
+                     , :TREIW.22222222222222222222222222222
+                     , :TREIW.IABREV-COTBT
+                     , :TREIW.ELOGDR-COTBT
+                     , :TREIW.ENRO-LOGDR-COTBT
+                     , :TREIW.ECOMPL-LOGDR-COTBT
+                     , :TREIW.EBAIRO-LOGDR-COTBT
+                     , :TREIW.IMUN-COTBT
+                     , :TREIW.CSGL-UF-COTBT
+                     , :TREIW.CCEP-COTBT
+                     , :TREIW.CCEP-COMPL-COTBT
+                     , :TREIW.CDDD-FONE-COTBT
+                     , :TREIW.CFONE-COTBT
+                     , :TREIW.CINSCR-EST-COTBT
+                     , :TREIW.VABTMT-PGTO
+                     , :TREIW.VMULTA-PGTO
+                     , :TREIW.VMORA-ENCAR-PGTO
+                     , :TREIW.VEFTVC-CREDT-PGTO
+                     , :TREIW.HEFTVC-CREDT-PGTO
+                     , :TREIW.CFGTS-PGTO-TRIBT
+                     , :TREIW.CAGTE-ARREC-TRIBT
+                     , :TREIW.NREFT-PGTO-TRIBT
+                     , :TREIW.NCOTA-PCELA-TRIBT
+                     , :TREIW.PRECTA-PGTO-TRIBT
+                     , :TREIW.DREFT-PGTO-TRIBT
+                     , :TREIW.VATULZ-MONET-TRIBT
+                     , :TREIW.CINFO-COMPL-TRIBT
+                     , :TREIW.RCOMPL-EMPR-TRIBT
+                     , :TREIW.RCOMPL-GUIA-TRIBT
+                     , :TREIW.CLACRE-SCIAL-TRIBT
+                     , :TREIW.CDIG-LACRE-SCIAL
+                     , :TREIW.CTPO-DOCTO-PGTO
+                     , :TREIW.CDOCTO-PGTO
+                     , :TREIW.CSERIE-DOCTO-PGTO
+                     , :TREIW.VDOCTO-PGTO
+                     , :TREIW.DEMIS-DOCTO-PGTO
+                     , :TREIW.CPSSOA-CONTR-ESTRN
+                     , :TREIW.CTPO-CONTR-ESTRN
+                     , :TREIW.NSEQ-CONTR-ESTRN
+                     , :TREIW.CPSSOA-CONTR-TARIF
+                     , :TREIW.CTPO-CONTR-TARIF
+                     , :TREIW.NSEQ-CONTR-TARIF
+                     , :TREIW.CPSSOA-ORIGE-REC
+                     , :TREIW.CTPO-ORIGE-REC
+                     , :TREIW.NSEQ-ORIGE-REC
+                     , :TREIW.CPSSOA-JURID-CTBIL
+                     , :TREIW.NSEQ-ORGNZ-CTBIL
+                     , :TREIW.DANO-OPER-DESC
+                     , :TREIW.NSEQ-OPER-DESC
+                     , :TREIW.IABREV-PGDOR
+                     , :TREIW.ELOGDR-PGDOR
+                     , :TREIW.ENRO-LOGDR-PGDOR
+                     , :TREIW.ECOMPL-LOGDR-PGDOR
+                     , :TREIW.EBAIRO-CLI-PGDOR
+                     , :TREIW.IMUN-CLI-PGDOR
+                     , :TREIW.CSGL-UF-PGDOR
+                     , :TREIW.CCEP-PGDOR
+                     , :TREIW.CCEP-COMPL-PGDOR
+                     , :TREIW.CTPO-LYOUT-ARQ
+                     , :TREIW.CTPO-LOTE-ARQ
+                     , :TREIW.CLYOUT-ORIGE-REMSS
+                     , :TREIW.CVRSAO-LYOUT-CNAB
+                     , :TREIW.CVRSAO-LOTE-CNAB
+                     , :TREIW.CINSTR-MOVTO-CNAB
+                     , :TREIW.COPER-CNAB
+                     , :TREIW.CTPO-SERVC-CNAB
+                     , :TREIW.CCOMPL-SERVC-CNAB
+                     , :TREIW.CFORMA-LCTO-CNAB
+                     , :TREIW.RINFO-COMPL-CNAB
+                     , :TREIW.CFORMA-LIQDC
+                     , :TREIW.CSIST-PGTO-CLI
+                     , :TREIW.CLISTA-DEB-PGTO
+                     , :TREIW.CMOTVO-SIT-PGTO
+                     , :TREIW.QDIA-FLOAT-PGTO
+                     , :TREIW.VFLOAT-PGTO
+                     , :TREIW.DFLOAT-PGTO
+                     , :TREIW.VEFTVC-DEB-PGTO
+                     , :TREIW.HEFTVC-DEB-PGTO
+                     , :TREIW.HDETRM-EFTVC-PGTO
+                     , :TREIW.QDIA-REPIQ-PGTO
+                     , :TREIW.QDIA-REPIQ-EFTVC
+                     , :TREIW.CTPO-MANUT-ONLINE
+                     , :TREIW.CSIT-MANUT-ONLINE
+                     , :TREIW.CEVNTO-SIST-ORIGE
+                     , :TREIW.RPGTO-PGDOR
+                     , :TREIW.RAUTEN-BCRIA-PGTO
+                     , :TREIW.RMSGEM-GNRCO-PGTO
+                     , :TREIW.RMSGEM-ESPEC-PGTO
+                     , :TREIW.CMSGEM-PRIM-LIN
+                     , :TREIW.CMSGEM-SEGDA-LIN
+                     , :TREIW.RUSO-EMPR-PGTO
+                     , :TREIW.CUSUAR-INCL
+                     , :TREIW.CUSUAR-INCL-EXTER
+                     , :TREIW.CUSUAR-MANUT
+                     , :TREIW.CUSUAR-MANUT-EXTER
+                     , :TREIW.HMANUT-REG
+                     , :TREIW.COPER-CANAL-MANUT
+                     , :TREIW.CTPO-CANAL-MANUT
+                     , :TREIW.CINDCD-PEND-ENVIO
+                     , :TREIW.CGRP-RECTA-TRIBT
+                     , :TREIW.CTPO-RECTA-TRIBT
+                     , :TREIW.CORG-PGDOR-ORGNZ
+                     , :TREIW.DEFETV-FLOAT-PGTO
+                     , :TREIW.CIDTFD-COMPV-GERDR
+                     , :TREIW.CIDTFD-VNCLO-LCTO
+                    )
+            END-EXEC.
+
